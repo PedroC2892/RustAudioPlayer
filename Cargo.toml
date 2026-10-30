@@ -1,0 +1,41 @@
+[package]
+name = "RustAudioPlayer"
+version = "0.1.0"
+edition = "2024"
+
+# Only the features the player uses: an OpenGL renderer (glow) instead of
+# wgpu, no accessibility bridge, no system font scanning, no microphone.
+[dependencies]
+eframe = { version = "0.37.0", default-features = false, features = [
+    "glow",
+    "default_fonts",
+    "clipboard",
+    "x11",
+    "wayland",
+] }
+lofty = "0.25.5"
+rfd = "0.17.2"
+rodio = { version = "0.23.0", default-features = false, features = [
+    "playback",
+    "flac",
+    "mp3",
+    "mp4",
+    "vorbis",
+    "wav",
+] }
+
+[profile.dev]
+# Line tables keep backtraces useful without full debug info (the bulk of target/).
+debug = "line-tables-only"
+
+[profile.dev.package."*"]
+# Dependencies are built once, optimized and without debug info: smooth decoding
+# and UI in debug builds, and a much smaller target/ directory.
+opt-level = 2
+debug = false
+
+[profile.release]
+lto = "fat"
+codegen-units = 1
+panic = "abort"
+strip = true

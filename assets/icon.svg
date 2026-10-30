@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- App icon for menus and launchers. Same geometry and colors as
+     theme::icon_color in src/theme.rs (radius fractions x 128); keep them in sync. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <circle cx="128" cy="128" r="124.16" fill="#161618"/>
+  <circle cx="128" cy="128" r="113.92" fill="none" stroke="#e8e6e3" stroke-opacity="0.6" stroke-width="3.84"/>
+  <g fill="none" stroke="#555455" stroke-width="2.05">
+    <circle cx="128" cy="128" r="97.28"/>
+    <circle cx="128" cy="128" r="81.92"/>
+    <circle cx="128" cy="128" r="66.56"/>
+  </g>
+  <circle cx="128" cy="128" r="43.52" fill="#d94a3d"/>
+  <circle cx="128" cy="128" r="7.68" fill="#161618"/>
+</svg>
