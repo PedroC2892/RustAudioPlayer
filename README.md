@@ -10,7 +10,7 @@ A fast, lightweight, and distraction-free desktop audio player written in pure s
 
 ---
 
-## ✨ Features
+## Features
 
 - **Spotify-Style Two-Pane Layout**:
   - Left sidebar with unified library ("All tracks") and custom user playlists.
@@ -40,7 +40,7 @@ A fast, lightweight, and distraction-free desktop audio player written in pure s
 
 ---
 
-## 🎨 Design Philosophy
+## Design Philosophy
 
 Inspired by vintage high-end hi-fi systems:
 > *"A listening room after dark, one red light on the amplifier."*
@@ -57,7 +57,7 @@ Inspired by vintage high-end hi-fi systems:
 
 ---
 
-## 🎧 Supported Audio Formats
+## Supported Audio Formats
 
 Format decoding is powered by `rodio` and `symphonia`:
 
@@ -71,7 +71,7 @@ Format decoding is powered by `rodio` and `symphonia`:
 
 ---
 
-## ⌨️ Keyboard Shortcuts
+## Keyboard Shortcuts
 
 | Shortcut | Action |
 |---|---|
@@ -88,7 +88,7 @@ Format decoding is powered by `rodio` and `symphonia`:
 
 ---
 
-## 🏗️ Architecture & Project Structure
+## Architecture & Project Structure
 
 ```
 RustAudioPlayer/
@@ -109,7 +109,7 @@ RustAudioPlayer/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -162,7 +162,7 @@ sudo pacman -S base-devel alsa-lib libx11 wayland
 
 ---
 
-### 📦 Desktop Installation
+### Desktop Installation
 
 A helper script is provided to compile an optimized release binary and install the desktop launcher and icon:
 
@@ -181,7 +181,7 @@ Once installed, **Rust Audio Player** can be launched from your desktop applicat
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under either of:
 - Apache License, Version 2.0 ([LICENSE-APACHE](http://www.apache.org/licenses/LICENSE-2.0))
