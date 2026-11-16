@@ -178,13 +178,3 @@ sudo ./install.sh
 ```
 
 Once installed, **Rust Audio Player** can be launched from your desktop application menu or by right-clicking audio files in your file manager ("Open With...").
-
----
-
-## License
-
-This project is licensed under either of:
-- Apache License, Version 2.0 ([LICENSE-APACHE](http://www.apache.org/licenses/LICENSE-2.0))
-- MIT license ([LICENSE-MIT](http://opensource.org/licenses/MIT))
-
-at your option. Embedded fonts are licensed under the [SIL Open Font License](http://scripts.sil.org/OFL).
